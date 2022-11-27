@@ -1,0 +1,45 @@
+.customer {
+  margin: 10px;
+  padding: 5px;
+  background-color: #ffcf86;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 12px;
+  text-align: center;
+  color: white;
+}
+
+.customer h2 {
+  font-size: 20px;
+  color: #777070;
+}
+
+
+.actions {
+  text-align: center;
+}
+
+.actions button {
+  font: inherit;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid #f78707;
+  padding: 0.5rem 2rem;
+  border-radius: 25px;
+  margin-left: 1rem;
+}
+
+.actions button:hover,
+.actions button:active {
+  background-color: #f78707;
+  border-color: #f78707;
+  color: white;
+}
+
+.actions .button--alt {
+  color: #f78707;
+}
+
+.actions .button {
+  background-color: #f78707;
+  color: white;
+}
